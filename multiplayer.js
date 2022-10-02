@@ -2,7 +2,7 @@ var turnOnWS = new XMLHttpRequest();
 turnOnWS.open("GET", "https://WebSocket3D.infiputer.repl.co", true);
 turnOnWS.send();
 
-let socket = new WebSocket("wss://WarriorWarfareWS.infiputer.repl.co");
+let socket = new WebSocket("wss://warriorwarfarews.herokuapp.com/");
 socket.onopen = function (e) {
     isconnected = true;
     console.log("[open] Connection established");
