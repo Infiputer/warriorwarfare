@@ -1,0 +1,40 @@
+#crosshair{
+	color: red;
+	font-family: consolas;
+	font-size: 50px;
+	z-index: 5;
+	position: absolute;
+	left: calc(50% - 20px);
+	top: calc(50% + 50px);
+	text-align: center;
+}
+
+#clickToStart{
+	background:rgba(255, 255, 255, 0.5);
+	color: blue;
+	font-family: consolas;
+	font-size: 50px;
+	z-index: 5;
+	position: absolute;
+	left: calc(50% - 20%);
+	top: 50%;
+	text-align: center;
+}
+
+body 
+{ 
+ height: 100%;
+ overflow: hidden
+}
+
+.nameTags{
+	background:rgba(255, 255, 255, 0.9);
+	color: blue;
+	font-family: consolas;
+	font-size: 20px;
+	z-index: 4;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+}

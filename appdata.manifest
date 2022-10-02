@@ -1,0 +1,9 @@
+CACHE MANIFEST
+NETWORK: 
+/play.php
+CACHE:
+# v0
+# This file will tell the broweser what needs to be Cached
+# Spaces are ignored
+# Blank Lines are ignored
+/assets/sounds/bullet.mp3

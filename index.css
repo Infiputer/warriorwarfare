@@ -1,0 +1,65 @@
+body{
+	font-family: 'Fredoka', sans-serif;
+	background-color:#8cfffb;
+}
+
+#b{
+	background-color: #0099ff;
+	font-family: 'Fredoka', sans-serif;
+}
+input{
+	border-color:black;
+	font-family: 'Fredoka', sans-serif;
+	font-size: 20px;
+	border-width: 2px 4px 4px 2px;
+	z-index: 50;
+}
+#tips{
+	font-size: 40px;
+	transform: rotateZ(20deg);
+	color: orange;
+	text-shadow: 1px 1px 1px #c2ceff;
+}
+#title{
+	font-size: 80px;
+	transform: rotateZ(5deg);
+	background-color:white;
+	display: inline-block;
+	font-family: 'Fredoka', sans-serif;
+	text-shadow: 5px 1px 2px #c2ceff;
+}
+#img1{
+	left: 5%;
+	position: absolute;
+	top: 20%;
+	z-index: -1;
+}
+#img2{
+	right: 5%;
+	position: absolute;
+	top: 20%;
+	z-index: -1;
+}
+body{
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+#help{
+	position: absolute;
+	top: 100%;
+}
+#info{
+	font-size: 50px;
+	text-shadow: 1px 1px 1px #c2ceff;
+}
+a{
+	text-shadow: 2px 2px 1px #c2ceff;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: orange; 
+  border-radius: 10px;
+}
