@@ -4,7 +4,7 @@
 		<link rel="icon" href="favicon.ico?v1" type="image/x-icon" />
 <link rel="shortcut icon" href="favicon.ico?v1" type="image/x-icon" /> 
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-		<title>Warrior Warfare</title>
+		<title>Warrior Warfare | In-game</title>
 		<style>
 			body { margin: 0; }
 		</style>

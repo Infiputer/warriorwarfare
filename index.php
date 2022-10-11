@@ -6,7 +6,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
 <link rel="manifest" href="manifest.json" />
 <head>
-	<title>Play Defend.io!</title>
+	<title>Warrior Warfare</title>
 	<meta property="og:type" content="website">
 	
 	<meta property="image" content="https://warriorwarfare.infiputer.repl.co/favicon.ico">
