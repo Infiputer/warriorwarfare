@@ -14,7 +14,7 @@ light = new THREE.PointLight(0xffffff, 2, 200);
 light.position.set(5, 10, 5);
 scene.add(light);
 
-THREE.Cache.enabled = true ;
+THREE.Cache.enabled = true;
 
 ground = null;
 
@@ -23,19 +23,19 @@ groundloader.load(
     "assets/ground.glb",
     function (glb) {
         ground = glb.scene;
-				ground.name = "The Ground"
+        ground.name = "The Ground"
         ground.scale.set(90, 90, 90);
         ground.position.y = -1.3;
         scene.add(ground);
     },
     function (xhr) {
-			if((xhr.loaded / xhr.total)<0.99){
-				document.getElementById("clickToStart").innerHTML = "Loading "
-					+Math.round((xhr.loaded / xhr.total) * 100)+"%";
-			}
-			else{
-				document.getElementById("clickToStart").innerHTML = "Click to begin, esc to exit";
-			}
+        if ((xhr.loaded / xhr.total) < 0.99) {
+            document.getElementById("clickToStart").innerHTML = "Loading "
+                + Math.round((xhr.loaded / xhr.total) * 100) + "%";
+        }
+        else {
+            document.getElementById("clickToStart").innerHTML = "Click to begin, esc to exit";
+        }
     },
     function (error) {
         console.log(error);
@@ -50,15 +50,15 @@ var projectileGLB = [];
 var carGLB = [];
 
 function createPerson() {
-		let nameTag = document.createElement("DIV");
-		nameTag.innerText = "hello";
-		document.body.appendChild(nameTag);	
-		nameTag.className = "nameTags";
-		nameTags.push(nameTag)
+    let nameTag = document.createElement("DIV");
+    nameTag.innerText = "hello";
+    document.body.appendChild(nameTag);
+    nameTag.className = "nameTags";
+    nameTags.push(nameTag)
     i = loader.length - 1;
     loader[i] = new THREE.GLTFLoader();
-		let appendPersonIndex = peopleGLB.length;
-		peopleGLB[appendPersonIndex] = {"position":{}, "rotation":{}};
+    let appendPersonIndex = peopleGLB.length;
+    peopleGLB[appendPersonIndex] = { "position": {}, "rotation": {} };
     loader[i].load(
         "assets/person.glb",
         function (glb) {
@@ -82,8 +82,8 @@ function createPerson() {
 function createCar() {
     i = loader.length - 1;
     loader[i] = new THREE.GLTFLoader();
-		let appendCarIndex = carGLB.length;
-		carGLB[appendCarIndex] = {"position":{}, "rotation":{}};
+    let appendCarIndex = carGLB.length;
+    carGLB[appendCarIndex] = { "position": {}, "rotation": {} };
     loader[i].load(
         "assets/car.glb",
         function (glb) {
@@ -107,8 +107,8 @@ function createCar() {
 function createDeadPerson() {
     i = loader.length - 1;
     loader[i] = new THREE.GLTFLoader();
-		let appendDeadPersonIndex = deadPeopleGLB.length;
-		deadPeopleGLB[appendDeadPersonIndex] = {"position":{}, "rotation":{}};
+    let appendDeadPersonIndex = deadPeopleGLB.length;
+    deadPeopleGLB[appendDeadPersonIndex] = { "position": {}, "rotation": {} };
     loader[i].load(
         "assets/deadperson.glb",
         function (glb) {
